@@ -28,6 +28,8 @@ git clone https://github.com/iurelen/products_at_cities.git
 cd products_at_cities
 ```
 
+Создать файл .env в корне проекта
+
 Cоздать и активировать виртуальное окружение:
 
 ```
