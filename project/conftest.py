@@ -1,8 +1,15 @@
 import pytest
 
+from rest_framework.test import APIClient
+
 from products.models import City, Image, Product
 
 IMAGE_URL = 'products/images/'
+
+
+@pytest.fixture
+def client():
+    return APIClient()
 
 
 @pytest.fixture

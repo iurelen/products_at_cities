@@ -2,11 +2,9 @@ import pytest
 
 from django.urls import reverse
 from http import HTTPStatus
-from rest_framework.test import APIClient
 
 MAIN_URL = reverse('products:products_list')
 IMAGE_URL = '/media/products/images/'
-client = APIClient()
 
 
 # Проверка доступности страницы
