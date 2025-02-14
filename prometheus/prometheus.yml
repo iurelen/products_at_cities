@@ -1,0 +1,7 @@
+global:
+  scrape_interval: 15s  # Частота опроса метрик
+
+scrape_configs:
+  - job_name: 'django'
+    static_configs:
+      - targets: ['host.docker.internal:8000']  # Адрес Django-приложения

@@ -27,6 +27,7 @@ from rest_framework.permissions import AllowAny
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('api/', include('products.urls')),
+    path('', include("django_prometheus.urls")),
 ]
 
 schema_view = get_schema_view(

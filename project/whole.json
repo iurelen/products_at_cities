@@ -1,0 +1,821 @@
+[
+{
+  "model": "products.city",
+  "pk": 2,
+  "fields": {
+    "id_number": 24,
+    "name": "Алматы"
+  }
+},
+{
+  "model": "products.city",
+  "pk": 3,
+  "fields": {
+    "id_number": 18,
+    "name": "Астана"
+  }
+},
+{
+  "model": "products.product",
+  "pk": 2,
+  "fields": {
+    "name": "Сок"
+  }
+},
+{
+  "model": "products.product",
+  "pk": 3,
+  "fields": {
+    "name": "Печенье"
+  }
+},
+{
+  "model": "products.product",
+  "pk": 4,
+  "fields": {
+    "name": "Клубника"
+  }
+},
+{
+  "model": "products.product",
+  "pk": 6,
+  "fields": {
+    "name": "Кабачки"
+  }
+},
+{
+  "model": "products.product",
+  "pk": 7,
+  "fields": {
+    "name": "Рис"
+  }
+},
+{
+  "model": "products.product",
+  "pk": 8,
+  "fields": {
+    "name": "Гречка"
+  }
+},
+{
+  "model": "products.product",
+  "pk": 9,
+  "fields": {
+    "name": "Апельсины"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "fields": {
+    "app_label": "products",
+    "model": "city"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "fields": {
+    "app_label": "products",
+    "model": "product"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "fields": {
+    "app_label": "products",
+    "model": "image"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "fields": {
+    "app_label": "admin",
+    "model": "logentry"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "fields": {
+    "app_label": "auth",
+    "model": "permission"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "fields": {
+    "app_label": "auth",
+    "model": "group"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "fields": {
+    "app_label": "auth",
+    "model": "user"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "fields": {
+    "app_label": "contenttypes",
+    "model": "contenttype"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "fields": {
+    "app_label": "sessions",
+    "model": "session"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "fkx9kxdu2zf09yjcrniu21u9eztqjt4a",
+  "fields": {
+    "session_data": ".eJxVjMsOwiAQRf-FtSFAebp07zeQYWCkaiAp7cr479qkC93ec859sQjbWuM2yhLnzM5MstPvlgAfpe0g36HdOsfe1mVOfFf4QQe_9lyel8P9O6gw6rfWICZCVMIoTA6dRQrkySebVQDlyOtip-BsQnJUpFDCykTagJM6G8XeH_YvOAs:1snyxa:KCoKYmuXVOpKRHh6pfPEwTHlzI121_dqVOI0hpZeKK0",
+    "expire_date": "2024-09-24T11:23:02.882Z"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can add Город",
+    "content_type": [
+      "products",
+      "city"
+    ],
+    "codename": "add_city"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can change Город",
+    "content_type": [
+      "products",
+      "city"
+    ],
+    "codename": "change_city"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can delete Город",
+    "content_type": [
+      "products",
+      "city"
+    ],
+    "codename": "delete_city"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can view Город",
+    "content_type": [
+      "products",
+      "city"
+    ],
+    "codename": "view_city"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can add Товар",
+    "content_type": [
+      "products",
+      "product"
+    ],
+    "codename": "add_product"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can change Товар",
+    "content_type": [
+      "products",
+      "product"
+    ],
+    "codename": "change_product"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can delete Товар",
+    "content_type": [
+      "products",
+      "product"
+    ],
+    "codename": "delete_product"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can view Товар",
+    "content_type": [
+      "products",
+      "product"
+    ],
+    "codename": "view_product"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can add Изображение",
+    "content_type": [
+      "products",
+      "image"
+    ],
+    "codename": "add_image"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can change Изображение",
+    "content_type": [
+      "products",
+      "image"
+    ],
+    "codename": "change_image"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can delete Изображение",
+    "content_type": [
+      "products",
+      "image"
+    ],
+    "codename": "delete_image"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can view Изображение",
+    "content_type": [
+      "products",
+      "image"
+    ],
+    "codename": "view_image"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can add log entry",
+    "content_type": [
+      "admin",
+      "logentry"
+    ],
+    "codename": "add_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can change log entry",
+    "content_type": [
+      "admin",
+      "logentry"
+    ],
+    "codename": "change_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can delete log entry",
+    "content_type": [
+      "admin",
+      "logentry"
+    ],
+    "codename": "delete_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can view log entry",
+    "content_type": [
+      "admin",
+      "logentry"
+    ],
+    "codename": "view_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can add permission",
+    "content_type": [
+      "auth",
+      "permission"
+    ],
+    "codename": "add_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can change permission",
+    "content_type": [
+      "auth",
+      "permission"
+    ],
+    "codename": "change_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can delete permission",
+    "content_type": [
+      "auth",
+      "permission"
+    ],
+    "codename": "delete_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can view permission",
+    "content_type": [
+      "auth",
+      "permission"
+    ],
+    "codename": "view_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can add group",
+    "content_type": [
+      "auth",
+      "group"
+    ],
+    "codename": "add_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can change group",
+    "content_type": [
+      "auth",
+      "group"
+    ],
+    "codename": "change_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can delete group",
+    "content_type": [
+      "auth",
+      "group"
+    ],
+    "codename": "delete_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can view group",
+    "content_type": [
+      "auth",
+      "group"
+    ],
+    "codename": "view_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can add user",
+    "content_type": [
+      "auth",
+      "user"
+    ],
+    "codename": "add_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can change user",
+    "content_type": [
+      "auth",
+      "user"
+    ],
+    "codename": "change_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can delete user",
+    "content_type": [
+      "auth",
+      "user"
+    ],
+    "codename": "delete_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can view user",
+    "content_type": [
+      "auth",
+      "user"
+    ],
+    "codename": "view_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can add content type",
+    "content_type": [
+      "contenttypes",
+      "contenttype"
+    ],
+    "codename": "add_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can change content type",
+    "content_type": [
+      "contenttypes",
+      "contenttype"
+    ],
+    "codename": "change_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can delete content type",
+    "content_type": [
+      "contenttypes",
+      "contenttype"
+    ],
+    "codename": "delete_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can view content type",
+    "content_type": [
+      "contenttypes",
+      "contenttype"
+    ],
+    "codename": "view_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can add session",
+    "content_type": [
+      "sessions",
+      "session"
+    ],
+    "codename": "add_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can change session",
+    "content_type": [
+      "sessions",
+      "session"
+    ],
+    "codename": "change_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can delete session",
+    "content_type": [
+      "sessions",
+      "session"
+    ],
+    "codename": "delete_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can view session",
+    "content_type": [
+      "sessions",
+      "session"
+    ],
+    "codename": "view_session"
+  }
+},
+{
+  "model": "auth.user",
+  "fields": {
+    "password": "pbkdf2_sha256$720000$oN727KN783t2V4AEINC53Q$hh6jf/AhTV4v2mEoF48ZPQyTUo0gnf0PZeuNItVw9kc=",
+    "last_login": "2024-09-10T11:23:02.879Z",
+    "is_superuser": true,
+    "username": "admin",
+    "first_name": "",
+    "last_name": "",
+    "email": "",
+    "is_staff": true,
+    "is_active": true,
+    "date_joined": "2024-09-10T11:22:31.927Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 1,
+  "fields": {
+    "action_time": "2024-09-10T11:28:16.358Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "products",
+      "city"
+    ],
+    "object_id": "1",
+    "object_repr": "Астана",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 2,
+  "fields": {
+    "action_time": "2024-09-10T11:28:32.084Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "products",
+      "city"
+    ],
+    "object_id": "2",
+    "object_repr": "Алматы",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 3,
+  "fields": {
+    "action_time": "2024-09-10T11:28:51.434Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "products",
+      "product"
+    ],
+    "object_id": "1",
+    "object_repr": "На удаление",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 4,
+  "fields": {
+    "action_time": "2024-09-10T11:28:56.443Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "products",
+      "product"
+    ],
+    "object_id": "2",
+    "object_repr": "Сок",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 5,
+  "fields": {
+    "action_time": "2024-09-10T11:29:03.647Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "products",
+      "product"
+    ],
+    "object_id": "3",
+    "object_repr": "Печенье",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 6,
+  "fields": {
+    "action_time": "2024-09-10T11:29:10.164Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "products",
+      "product"
+    ],
+    "object_id": "4",
+    "object_repr": "Клубника",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 7,
+  "fields": {
+    "action_time": "2024-09-10T11:29:21.676Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "products",
+      "product"
+    ],
+    "object_id": "5",
+    "object_repr": "На удаление",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 8,
+  "fields": {
+    "action_time": "2024-09-10T11:29:28.559Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "products",
+      "product"
+    ],
+    "object_id": "6",
+    "object_repr": "Кабачки",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 9,
+  "fields": {
+    "action_time": "2024-09-10T11:29:32.588Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "products",
+      "product"
+    ],
+    "object_id": "7",
+    "object_repr": "Рис",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 10,
+  "fields": {
+    "action_time": "2024-09-10T11:29:38.304Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "products",
+      "product"
+    ],
+    "object_id": "8",
+    "object_repr": "Гречка",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 11,
+  "fields": {
+    "action_time": "2024-09-10T11:29:43.827Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "products",
+      "product"
+    ],
+    "object_id": "9",
+    "object_repr": "Апельсины",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 12,
+  "fields": {
+    "action_time": "2024-09-10T11:31:04.130Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "products",
+      "product"
+    ],
+    "object_id": "5",
+    "object_repr": "На удаление",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 13,
+  "fields": {
+    "action_time": "2024-09-10T11:31:04.132Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "products",
+      "product"
+    ],
+    "object_id": "1",
+    "object_repr": "На удаление",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 14,
+  "fields": {
+    "action_time": "2024-09-10T11:31:14.054Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "products",
+      "city"
+    ],
+    "object_id": "1",
+    "object_repr": "Астана",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 15,
+  "fields": {
+    "action_time": "2024-09-10T11:31:24.604Z",
+    "user": [
+      "admin"
+    ],
+    "content_type": [
+      "products",
+      "city"
+    ],
+    "object_id": "3",
+    "object_repr": "Астана",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+}
+]
